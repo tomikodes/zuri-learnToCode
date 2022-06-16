@@ -1,0 +1,183 @@
+html, body, div, main, p{
+    margin: 0  ;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: hsl(0, 100%, 74%);
+}
+
+input:focus {
+    outline: none;
+}
+
+small a {
+    color: hsl(0, 100%, 74%);
+    cursor: pointer;
+}
+
+small {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.small-form-div input{
+    display: block;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+}
+
+form .second-btn{
+    text-align: center;
+    background-color: hsl(154, 59%, 51%);
+    margin: 0 auto;
+}
+
+.form-div .first-btn{
+    background-color: hsl(248, 32%, 49%);
+}
+
+.root-div {
+    padding: 70px 50px 30px;
+}
+
+.small-form-div {
+    background-color: #fff;
+    color: black;
+    border-radius: 7px;
+}
+
+@media (max-width:750px) {
+
+    body {
+        background-image: url("images/bg-intro-mobile.png");
+    }
+
+    .ltc-div h3{
+        font-size:1.3rem;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }   
+
+    .ltc-div p{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    form .second-btn{
+        width: 90%;
+        max-width: 400px;
+        font-size: 18px;
+    }
+
+    .small-form-div {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .small-form-div input{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    small {
+        width: 65%;
+        
+    }
+
+    .form-div {
+        margin-top: 50px;
+    }
+
+    .root-div {
+        padding: 70px 30px 30px;
+    }
+}
+
+@media (min-width:751px) {
+
+    body {
+        background-image: url("images/bg-intro-desktop.png");
+    }
+
+    .root-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        gap: 7%;
+    }
+    
+    .ltc-div h3 {
+        font-size: 3rem;
+        max-width: 500px;
+        line-height: 1;
+    }
+
+    .ltc-div p {
+        max-width: 500px;
+    }
+
+    .form-div .btn {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .form-div .first-btn {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .form-div .first-btn span {
+        font-weight:780;
+    }
+
+    .form-div{
+        width: 40%;
+        min-width: 450px;
+    }
+
+    .small-form-div input {
+        font-size: 22px;
+        padding: 7px;
+        padding-left: 20px;
+        margin: 15px auto;
+        width: 85%;
+    }
+
+    .small-form-div {
+        padding: 15px;
+    }
+
+    .small-form-div .second-btn {
+        /* max-width: 455px; */
+        width: 92%;
+    }
+}
